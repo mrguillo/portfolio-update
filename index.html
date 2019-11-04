@@ -16,45 +16,50 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     
     <title>Salcedo Portfolio - Home</title>
+    <link rel="icon" 
+    type="image/png" 
+    href="./assets/images/home-black-18dp/2x/outline_home_black_18dp.png">
+
+
   </head>
   <body id="background-all">
 
-    <!-- NavBar -->
+  <!-- NavBar -->
 
-    <div class="container-fluid" id="background-all">
-      
+  <div class="container-fluid" id="background-all">
 
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" >
-        <div class="container">
-          <a class="navbar-brand" href="index.html"><strong>Salcedo<span id="dot">.</span></strong></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html" id="active">Home
-                  <span class="sr-only">(current)</span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-            </ul>
-          </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><strong>Salcedo<span id="dot">.</span></strong></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+          aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html" id="active">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
 
-      <br>
-      <br>
-      <br>
+    <br>
+    <br>
+    <br>
 
 
     <!-- Jumbotron -->
@@ -66,22 +71,22 @@
             <source data-src="assets/images/Pexels Videos 2699.mp4" type="video/mp4">
           </video>
           <div class="container text-white">
-            <h1 class="display-4">Passionate about coding.</h1>
+            <h1 class="display-4">Passionate about coding</h1>
             <h4 class="lead-txt">Passion leads to performance. Performance leads to success.</h4>
             <br>
             <br>
-            <a class="btn btn-warning btn-lg" data-toggle="button" href="./contact.html" role="button">Contact me >></a>
+            <a class="btn btn-warning btn-lg" href="./contact.html" role="button">Contact me >></a>
           </div>
         </div>
       </div>
     </div>
-    
+
 
     <!-- Salcedo's Skills -->
 
     <div class="container" id="background-all">
       <div class="row text-center">
-      
+
         <!-- app development skill card -->
         <div class="col-lg-3 col-md-6 col-sm-6">
           <div class="card w-auto border-0" id="background-all">
@@ -103,7 +108,8 @@
             </span>
             <div class="card-body">
               <h5 class="card-title">Web Development</h5>
-              <p class="card-text"> Web applications, HTML and CSS protocols JavaScript, Node JS Angular, React JS, Vue and more...</p>
+              <p class="card-text"> The most popular HTML, CSS, and JavaScript framework for developing responsive,
+                mobile first projects on the web.</p>
             </div>
           </div>
         </div>
@@ -137,8 +143,54 @@
     </div>
 
 
+    <!-- tryout section -->
+    <section class="skill-cta">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section-header text-center">
+            <img id="banner-dev" src="./assets/images/webdeveloper_banner.jpg" alt="web_developer_banner">
+            <h2 id="dev">All About web development</h2>
+            <p>How web development can help your business grow</p>
+            <!-- <p><a href="contact.html" class="btn btn-dark btn-lg btn-group" >Contact me »</a></p> -->
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#exampleModal">
+              Learn more
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">What a web developer can do for you?</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Web developers are professionals who build attractive and functional websites. A professional
+                      and user-friendly website reflects a business that is trustworthy, relevant and client or
+                      consumer-centric. People make decisions about which products and services to buy based on
+                      information they’ve searched for online.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-warning" href="./contact.html">Contect me >></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
     <!-- Join the conversation container -->
-    
+
     <div class="container">
       <div class=bottom-index>
         <div class="row">
@@ -163,42 +215,49 @@
       </div>
     </div>
 
+
+
   </div>
 
-      <!-- Footer -->
-      <footer id="footer" class="text-center" class="py-4 bg-light">
-        <div class="container socials-media text-center">
-          <ul class="list-unstyled">
-            <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
-            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-            <li><a href="#"><i class="fab fa-tumblr-square"></i></a></li>
-            <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
-          </ul>
-          <p class="m-0 text-center text-dark">SALCEDO. Copyright &copy; 2019</p>
-        </div>
-      </footer>
+  <!-- Footer -->
+  <footer id="footer" class="text-center" class="py-4 bg-light">
+    <div class="container socials-media text-center">
+      <ul class="list-unstyled">
+        <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+        <li><a href="#"><i class="fab fa-tumblr-square"></i></a></li>
+        <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+      </ul>
+      <p class="m-0 text-center text-dark">SALCEDO. Copyright &copy; 2019</p>
+    </div>
+  </footer>
 
-      
-      <!-- Jumbotron video background JavaScript -->
 
-      <script type="text/javascript">
-        function jumboVideo() {
-          $("video source").each(function () {
-            var sourceFile = $(this).attr("data-src");
-            $(this).attr("src", sourceFile);
-            var video = this.parentElement;
-            video.load();
-          });
-        }
-        window.onload = jumboVideo;
-      </script>
+  <!-- Jumbotron video background JavaScript -->
 
-    <!-- jQuery first, Bootstrap -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  
+  <script type="text/javascript">
+    function jumboVideo() {
+      $("video source").each(function () {
+        var sourceFile = $(this).attr("data-src");
+        $(this).attr("src", sourceFile);
+        var video = this.parentElement;
+        video.load();
+      });
+    }
+    window.onload = jumboVideo;
+  </script>
+
+  <!-- jQuery, Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+
   </body>
-</html>
+
+  </html>
 
 <!-- last updated Nov/02/2019 -->

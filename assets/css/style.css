@@ -31,6 +31,7 @@
   overflow: hidden;
   background-color:black;
   font-family: 'Roboto', sans-serif;
+  margin-bottom: 30px;
 }
 .jumbotron video {
   position: absolute;
@@ -69,8 +70,27 @@
   margin-top: 100px;
 }
 
+/* #d5d4d2 */
+.skill-cta {
+  background-color: #f1c40f;
+  text-align: center;
+  padding-bottom: 40px;
+  display: block;
+  margin-top: 30px;
+}
 
+#banner-dev {
+  max-width: 100%;
+  max-height: 100%;
+  height: 100%; 
+  width: 100%;
+  object-fit: contain;
 
+}
+
+#dev {
+  padding: 30px 0px 0px 0px;
+}
 /*-----------------------------------------------------------------------------------*/
 /*  ABOUT-ME hero banner
 /*-----------------------------------------------------------------------------------*/
@@ -94,16 +114,9 @@
 #bgtxt {
   color:white;
   text-align: left;
-  font-size: 20px;
+  font-size: 25px;
   padding-bottom: 20px;
   }
-
-.card-horizontal {
-  display: flex;
-  flex: 1 1 auto;
-  max-width: 100%;
-
-}
 
 .card {
   background-color: white;
@@ -121,7 +134,6 @@
   font-size: 3rem;
   color: #212529;
 }
-  
 
 footer {
   position: relative;
@@ -266,7 +278,7 @@ footer {
 
 
 .main_title {
-  margin-top: 50px;
+  margin-top: 100px;
   margin-bottom: 50px;
   font-family:'Roboto', sans-serif;
 }
@@ -339,6 +351,9 @@ height:200px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+
+
 
 /* End Portfolio area
 
