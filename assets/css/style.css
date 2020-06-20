@@ -2,7 +2,6 @@
 /* GENERAL - NAVBAR
 /*-----------------------------------------------------------------------------------*/
 
-
 .navbar-brand {
   text-decoration-color: #f1c40f!important;
 }
@@ -22,6 +21,8 @@
 .btn {
   color: white;
 }
+
+
 /*-----------------------------------------------------------------------------------*/
 /*  HOME - JUMBOTRON
 /*-----------------------------------------------------------------------------------*/
@@ -189,6 +190,10 @@ footer {
   max-width: 80%;
   margin-bottom: 0;
   text-align: left;
+  padding-left: 25px;
+}
+
+#linkedin-badge {
   padding-left: 25px;
 }
 
@@ -481,3 +486,21 @@ footer {
   margin-top: 0;
   text-transform: uppercase;
 }
+
+/*-----------------------------------------------------------------------------------*/
+/*  BLOG
+/*-----------------------------------------------------------------------------------*/
+
+/*!
+ * Start Bootstrap - Blog Post (https://startbootstrap.com/templates/blog-post)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-blog-post/blob/master/LICENSE)
+ */
+
+ /* .container-blog {
+  width: 100%;
+  height: auto;
+  background: #f7f7f7;
+  padding-top: 560px;
+  padding-bottom: 30px;
+} */
