@@ -4,3 +4,5 @@ https://mrsalcedo.com/about.html
 https://mrsalcedo.com/portfolio.html
 https://mrsalcedo.com/contact.html
 https://mrsalcedo.com/blog-code_happy.html
+https://mrsalcedo.com/blog-hello_world.html
+https://mrsalcedo.com/blog-make_your_dreams_code_true.html

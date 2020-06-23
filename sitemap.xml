@@ -11,37 +11,49 @@
 
   <url>
        <loc>https://mrsalcedo.com/</loc>
-       <lastmod>2020-06-22T00:01:09+00:00</lastmod>
+       <lastmod>2020-06-23T01:17:26+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>1.0000</priority>
   </url>
   <url>
        <loc>https://mrsalcedo.com/index.html</loc>
-       <lastmod>2020-06-22T00:01:09+00:00</lastmod>
+       <lastmod>2020-06-23T01:17:26+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://mrsalcedo.com/about.html</loc>
-       <lastmod>2020-06-22T00:01:09+00:00</lastmod>
+       <lastmod>2020-06-23T01:17:26+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://mrsalcedo.com/portfolio.html</loc>
-       <lastmod>2020-06-22T00:01:09+00:00</lastmod>
+       <lastmod>2020-06-23T01:17:26+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://mrsalcedo.com/contact.html</loc>
-       <lastmod>2020-06-22T00:01:09+00:00</lastmod>
+       <lastmod>2020-06-23T01:17:26+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://mrsalcedo.com/blog-code_happy.html</loc>
-       <lastmod>2020-06-22T00:01:09+00:00</lastmod>
+       <lastmod>2020-06-23T01:17:26+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://mrsalcedo.com/blog-hello_world.html</loc>
+       <lastmod>2020-06-23T01:17:26+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://mrsalcedo.com/blog-make_your_dreams_code_true.html</loc>
+       <lastmod>2020-06-23T01:17:26+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
   </url>
